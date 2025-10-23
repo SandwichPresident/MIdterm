@@ -4,14 +4,13 @@
     {
         static void Main(string[] args)
         {
-            string[] studentNames = ["Alex", "Sam", "Lee", "Nick"];
-            foreach (var name in studentNames)
+            Console.WriteLine(sumx3(2,3));
+            static int sumx3(int x, int y)
             {
-                Console.WriteLine("Welcome " + name + "!");
-                if (name == "Nick")
-                {
-                                       Console.WriteLine("Wow! You have the same name as the instructor!");
-                }
+                int answer;
+                answer = (x + y) * 3;
+                return answer;
+                //heres a comment for ya
             }
         }
     }
